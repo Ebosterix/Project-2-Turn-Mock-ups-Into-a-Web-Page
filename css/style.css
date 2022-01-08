@@ -1,3 +1,4 @@
+/* Media Querry takes effect on the code below if screen size is 1023px wide, or less.*/
 @media screen and (max-width: 1023px) {
   * {
     font-family: "Raleway", sans-serif;
@@ -158,7 +159,6 @@
     width: 50px;
     height: 50px;
     text-align: center;
-
     border-radius: 15px 0 0 15px;
     font-size: 18px;
     line-height: 50px;
@@ -346,7 +346,7 @@
     flex-flow: column nowrap;
     width: 100%;
   }
-  #most-popular{
+  #most-popular {
     display: flex;
     flex-flow: column nowrap;
     align-items: flex-start;
@@ -362,7 +362,7 @@
     padding-bottom: 25px;
   }
 
- .chart-header {
+  .chart-header {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
@@ -371,7 +371,7 @@
     margin: 5px 0px 10px 5%;
   }
 
- .chart-header h2 {
+  .chart-header h2 {
     display: flex;
     padding-left: 0;
   }
@@ -416,10 +416,8 @@
     width: 40%;
     height: 135px;
     margin: 4px;
-
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-
     background-image: url("images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
     background-size: cover;
     background-position: center;
@@ -428,10 +426,8 @@
     width: 40%;
     height: 135px;
     margin: 4px;
-
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-
     background-image: url("images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
     background-size: cover;
     background-position: center;
@@ -444,7 +440,6 @@
     width: 55%;
     margin: 0;
   }
-
   h5 {
     font-size: 1.1em;
     margin: 10px 10px 0px 0;
@@ -456,6 +451,7 @@
     margin-top: 5px;
     padding-left: 10px;
   }
+
 
   .rating {
     width: 80%;
@@ -515,10 +511,8 @@
   .hotel-icons .image {
     height: 110px;
     margin: 4px;
-
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-
     background-image: url("images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
     background-size: cover;
     background-position: center;
@@ -527,10 +521,8 @@
   .hotel-icons .image-2 {
     height: 110px;
     margin: 4px;
-
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-
     background-image: url("images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
     background-size: cover;
     background-position: center;
@@ -538,10 +530,8 @@
   .hotel-icons .image-3 {
     height: 110px;
     margin: 4px;
-
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-
     background-image: url("images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
     background-size: cover;
     background-position: center;
@@ -549,10 +539,8 @@
   .hotel-icons .image-4 {
     height: 110px;
     margin: 4px;
-
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-
     background-image: url("images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
     background-size: cover;
     background-position: center;
@@ -560,10 +548,8 @@
   .hotel-icons .image-5 {
     height: 110px;
     margin: 4px;
-
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-
     background-image: url("images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
     background-size: cover;
     background-position: center;
@@ -571,10 +557,8 @@
   .hotel-icons .image-6 {
     height: 110px;
     margin: 4px;
-
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-
     background-image: url("images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
     background-size: cover;
     background-position: center;
@@ -640,7 +624,6 @@
     margin: 10px 5% 15px 5%;
     border-radius: 15px;
     background-color: white;
-
     text-decoration: none;
     color: black;
     box-shadow: 0px 5px 15px 0px rgba(220, 220, 220, 1);
@@ -652,7 +635,6 @@
     margin: 10px 5% 15px 5%;
     border-radius: 15px;
     background-color: white;
-
     text-decoration: none;
     color: black;
     box-shadow: 0px 5px 15px 0px rgba(220, 220, 220, 1);
@@ -707,10 +689,8 @@
   }
   .image-1 {
     height: 135px;
-
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-
     background-image: url("images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
     background-size: cover;
     background-position: center;
@@ -718,10 +698,8 @@
 
   .image-2 {
     height: 135px;
-
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-
     background-image: url("images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
     background-size: cover;
     background-position: center;
@@ -729,10 +707,8 @@
 
   .image-3 {
     height: 135px;
-
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-
     background-image: url("images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
     background-size: cover;
     background-position: center;
@@ -740,10 +716,8 @@
 
   .image-4 {
     height: 135px;
-
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-
     background-image: url("images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
     background-size: cover;
     background-position: center;
@@ -751,10 +725,8 @@
 
   .image-5 {
     height: 135px;
-
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-
     background-image: url("images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
     background-size: cover;
     background-position: center;
@@ -762,10 +734,8 @@
 
   .image-6 {
     height: 135px;
-
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-
     background-image: url("images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
     background-size: cover;
     background-position: center;
@@ -810,8 +780,7 @@
 Other divices
 -------------------------------------*/
 
-/*WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW*/
-
+/* Media Querry takes effect on the code below if screen size is 1024px wide or more.*/
 @media screen and (min-width: 1024px) {
   * {
     font-family: "Raleway", sans-serif;
@@ -1112,7 +1081,7 @@ Other divices
 
   /* ----- main section ---*/
 
-  #most-popular{
+  #most-popular {
     display: flex;
     flex-flow: row-reverse nowrap;
     justify-content: flex-start;
@@ -1133,14 +1102,14 @@ Other divices
     background-color: #f2f2f2;
   }
 
- .chart-header {
+  .chart-header {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
     margin-top: 2%;
   }
 
- .chart-header h2 {
+  .chart-header h2 {
     width: 70%;
     padding-top: 5px;
     margin-bottom: 20px;
@@ -1153,7 +1122,7 @@ Other divices
     font-size: 1.4em;
   }
 
- .main-chart {
+  .main-chart {
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
